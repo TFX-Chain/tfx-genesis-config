@@ -7,5 +7,4 @@ node_modules/
 .DS_Store
 coverage
 coverage.json
-*.json
 test/
