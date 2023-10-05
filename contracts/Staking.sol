@@ -1205,7 +1205,7 @@ contract Staking is IStaking, InjectorContextHolder {
                     uint256((money * 10) / 36500) * BALANCE_COMPACT_PRECISION;
             }
             
-            if (money / 1e18 >= 50000) {
+            if (money / 1e6 >= 50000) {
                 return uint256((money * 4) / 36500) * BALANCE_COMPACT_PRECISION;
             } else {
                 return uint256((money * 3) / 36500) * BALANCE_COMPACT_PRECISION;
